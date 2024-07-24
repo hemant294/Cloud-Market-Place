@@ -1,0 +1,7 @@
+.custom-req{
+    text-decoration: none;
+    
+}
+.custom-req:hover{
+    text-decoration: underline;
+}

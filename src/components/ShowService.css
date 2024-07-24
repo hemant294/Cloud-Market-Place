@@ -1,0 +1,27 @@
+.show-head{
+    background-color: #FAFAFA;
+    height: 100vh;
+}
+
+.back-nav{
+    padding: 10px;
+    background-color: #6c757d;
+}
+.back-nav a{
+    /* display: inline-block; */
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration-line: none;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+h5{
+    text-align: center;
+}
+.show-data{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
