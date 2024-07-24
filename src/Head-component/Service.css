@@ -1,0 +1,68 @@
+.grid-display{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.sheader >h5{
+    text-decoration: none;
+}
+.main-container{
+    margin: 0 50px 0 50px;
+}
+
+li{
+    margin-top: 12px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.search-val >Input{
+    width: 96.5%;
+    margin-left: 15px;
+    height: 40px;
+    margin-bottom: 0px;
+    border-color:rgb(99, 96, 96);
+    border: 1px solid;
+}  
+.search-val >Input:hover{
+    border-color: rgb(113, 231, 231);
+}
+.search-val >Input[type=text]:focus{
+    border: 1px solid red;
+} 
+
+.productCat-size{
+    width: 150px;
+    margin: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(175, 173, 173);
+    padding:0 3px 0 3px;
+    
+}
+.productCat-size >h5{
+    font-size: 12px;
+}
+
+
+.sarvice-head{
+    background-color: #FAFAFA;
+}
+
+.sub-header >p{
+    color: white;
+    font-size: 18px;
+    font-family: AmazonEmber,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.active {
+    color: rgb(14, 169, 177);
+}
+
+
+@media screen and (max-width: 1181px) {
+    home-width{
+        padding: auto;
+    }
+}

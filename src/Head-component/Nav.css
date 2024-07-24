@@ -1,0 +1,27 @@
+.nav-head{
+    /* padding: 10px; */
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content:space-around; */
+}
+
+.header-data{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    margin-right: 20px;
+}
+li >a{
+    margin: 0 25px 0 25px;
+    /* padding: 10px; */
+    color: black;
+    font-size: 18px;    
+    text-decoration: none;
+ }
+/* .search-res >a{
+} */
+
+.active {
+    color: rgb(14, 169, 177);
+}

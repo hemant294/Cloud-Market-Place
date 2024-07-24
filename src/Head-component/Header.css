@@ -1,0 +1,23 @@
+.header-container{
+    height: 4rem;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(230, 230, 214);
+   
+}
+.flex-property-header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+h1{
+    align-items: center;
+    /* padding-bottom: 10px; */
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: rgb(78, 78, 78);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-decoration-line: none;
+}
